@@ -1,3 +1,5 @@
+#Yesterday midnight to 11.59.59 whole day in miliseconds epoch generator
+
 import datetime
 def get_yesterday_epoch() -> (int, int):
     today = datetime.datetime.now()
